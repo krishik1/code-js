@@ -1,9 +1,35 @@
 // import {func1} from './src/code.mjs'
-import * as codes from './src/code.mjs'
-import * as mul from './src/checker.mjs'
-import * as prom from './src/promprac.mjs'
-import * as func1 from './src/prommethodsexe.mjs'
-import {createOrder, proceedToPayment} from './src/ownpromise.mjs'
+// import * as codes from './src/code.mjs'
+// import * as mul from './src/checker.mjs'
+ import * as prom from './src/promprac.mjs'
+// import * as func1 from './src/prommethodsexe.mjs'
+// import * as func2 from './src/asyncawait.mjs'
+//import * as funcx from './src/thisdemo.mjs'
+// import * as funcy from './src/oops.mjs'
+// import * as funcy from './src/DomManipulation.mjs'
+//import {placeOrder,createOrder,processPayment} from './src/ecart.mjs'
+//import {createOrder, proceedToPayment} from './src/ownpromise.mjs'
+const cart = [{
+    productId: "12345",
+    name: "Track Suit",
+    price: 500,
+    brand: "Puma"
+},
+{
+    productId: "12845",
+    name: "T-Shirt",
+    price: 300,
+    brand: "Highlander"   
+},
+{
+    productId: "12846",
+    name: "Joggers",
+    price: 2000,
+    brand: "Nike"   
+}
+]
+placeOrder(cart)
+console.log('xxxxxxxx',this)
 // Promise.allSettled([func1.p1,func1.p2,func1.p3]).then((res)=>{console.log(res)}).catch((err)=>console.log(err))
 
 /*
